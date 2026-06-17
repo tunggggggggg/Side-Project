@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>時尚女鞋 | 鞋音梗 男女鞋專賣店</title>
+  <meta name="description" content="瀏覽 鞋音梗 時尚女鞋系列，包含氣質高跟鞋、復古厚底老爹鞋、優雅皮靴與舒適平底鞋。">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Floating Glass Header -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo-link">
+        <img src="assets/images/logo.png" alt="鞋音梗 Logo" class="logo-img">
+        <div>
+          <span class="logo-text">鞋音梗</span>
+          <span class="logo-sub">男女鞋專賣店</span>
+        </div>
+      </a>
+
+      <!-- Mobile Hamburger Toggle -->
+      <div class="menu-toggle" id="mobile-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <!-- Nav Links -->
+      <nav class="nav-menu">
+        <div class="nav-item"><a href="index.html">首頁</a></div>
+        <div class="nav-item"><a href="about.html">公司簡介</a></div>
+        <div class="nav-item"><a href="news.html">最新消息</a></div>
+        <div class="nav-item"><a href="new-arrivals.html">新品上市</a></div>
+        <div class="nav-item active"><a href="womens.html">女鞋</a></div>
+        <div class="nav-item"><a href="mens.html">男鞋</a></div>
+        <div class="nav-item"><a href="accessories.html">精選配件</a></div>
+        <div class="nav-item"><a href="contact.html">聯絡我們</a></div>
+      </nav>
+
+      <!-- Cart Trigger -->
+      <div class="nav-actions">
+        <a href="#" class="nav-icon" id="cart-icon-btn" title="購物車">
+          <span>🛍️</span>
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Banner -->
+  <section class="page-banner">
+    <div class="container">
+      <span class="section-tag">FOR HER</span>
+      <h1 class="section-title">時尚女鞋系列</h1>
+      <p class="section-desc">優雅與力量的完美載體。打造每位女性在正式與日常場合中的精緻焦點。</p>
+    </div>
+  </section>
+
+  <!-- Shop Filter & Grid Section -->
+  <section class="section">
+    <div class="container">
+      <!-- Filter Bar -->
+      <div class="filter-bar">
+        <div class="filter-group">
+          <span class="results-count">共顯示 <strong id="results-count-number">0</strong> 款女鞋</span>
+        </div>
+        <div class="filter-group">
+          <label for="sort-select" class="filter-label">排序方式:</label>
+          <select id="sort-select" class="filter-select">
+            <option value="default">預設排序</option>
+            <option value="price-asc">價格：由低到高</option>
+            <option value="price-desc">價格：由高到低</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Dynamic Product Grid (data-category="womens") -->
+      <div class="product-grid" id="dynamic-product-grid" data-category="womens">
+        <!-- Rendered dynamically by main.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Shopping Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cart-drawer-overlay"></div>
+  <div class="cart-drawer" id="cart-drawer">
+    <div class="cart-drawer-header">
+      <div class="cart-drawer-title">
+        <span>🛍️</span> 我的購物車
+      </div>
+      <button class="cart-close-btn" id="cart-close">&times;</button>
+    </div>
+    <div class="cart-drawer-items">
+      <!-- Items will load dynamically -->
+    </div>
+    <div class="cart-drawer-footer">
+      <div class="cart-summary-row">
+        <span>小計</span>
+        <span class="cart-summary-total">NT$ 0</span>
+      </div>
+      <button class="btn btn-primary" onclick="alert('感謝您的訂購！')">前往結帳</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4>鞋音梗 男女鞋專賣店</h4>
+        <p>鞋音梗 致力於傳承台灣傳統製鞋工藝，將無與倫比的舒適感融入前衛都會風格，讓每一段旅程都成為品味的延伸。</p>
+        <div class="footer-socials">
+          <a href="#" class="social-link">FB</a>
+          <a href="#" class="social-link">IG</a>
+          <a href="#" class="social-link">YT</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h5>產品類別</h5>
+        <ul>
+          <li><a href="new-arrivals.html">新品上市</a></li>
+          <li><a href="womens.html">時尚女鞋</a></li>
+          <li><a href="mens.html">經典男鞋</a></li>
+          <li><a href="accessories.html">配件</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>關於品牌</h5>
+        <ul>
+          <li><a href="about.html">公司簡介</a></li>
+          <li><a href="news.html">最新消息</a></li>
+          <li><a href="contact.html">聯絡我們</a></li>
+          <li><a href="#">門市據點</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <h5>訂閱電子報</h5>
+        <p>首度訂閱即可獲得 NT$ 500 現金折扣券，掌握 brand 最新鞋款與貴賓專屬優惠。</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('感謝您的訂閱！已發送 500 元優惠券至您的信箱。');">
+          <input type="email" placeholder="輸入您的電子信箱..." class="form-control" required>
+          <button type="submit" class="btn btn-primary">訂閱</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 鞋音梗 Footwear. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">隱私權政策</a>
+        <a href="#">使用條款</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

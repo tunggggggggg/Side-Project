@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>最新消息 | 鞋音梗 男女鞋專賣店</title>
+  <meta name="description" content="鞋音梗歡慶門市開幕，凡購買兩雙以上享85折優惠！">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Floating Glass Header -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo-link">
+        <img src="assets/images/logo.png" alt="鞋音梗 Logo" class="logo-img">
+        <div>
+          <span class="logo-text">鞋音梗</span>
+          <span class="logo-sub">男女鞋專賣店</span>
+        </div>
+      </a>
+
+      <!-- Mobile Hamburger Toggle -->
+      <div class="menu-toggle" id="mobile-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <!-- Nav Links -->
+      <nav class="nav-menu">
+        <div class="nav-item"><a href="index.html">首頁</a></div>
+        <div class="nav-item"><a href="about.html">公司簡介</a></div>
+        <div class="nav-item active"><a href="news.html">最新消息</a></div>
+        <div class="nav-item"><a href="new-arrivals.html">新品上市</a></div>
+        <div class="nav-item"><a href="womens.html">女鞋</a></div>
+        <div class="nav-item"><a href="mens.html">男鞋</a></div>
+        <div class="nav-item"><a href="accessories.html">精選配件</a></div>
+        <div class="nav-item"><a href="contact.html">聯絡我們</a></div>
+      </nav>
+
+      <!-- Cart Trigger -->
+      <div class="nav-actions">
+        <a href="#" class="nav-icon" id="cart-icon-btn" title="購物車">
+          <span>🛍️</span>
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Banner -->
+  <section class="page-banner">
+    <div class="container">
+      <span class="section-tag">BRAND JOURNAL</span>
+      <h1 class="section-title">最新消息</h1>
+      <p class="section-desc">鞋音梗 歡慶門市開幕，凡購買兩雙以上享85折優惠！</p>
+    </div>
+  </section>
+
+  <!-- News Grid Section -->
+  <section class="section">
+    <div class="container">
+      <div class="news-grid">
+        <!-- News 1 -->
+        <article class="news-card">
+          <div class="news-img-wrapper">
+            <img src="assets/images/women_2.png" alt="Summer Collection Launch" class="news-img">
+          </div>
+          <div class="news-content">
+            <time class="news-date">2026.06.15</time>
+            <h3 class="news-title"><a href="#">2026 夏季新品發表會：夏日繽紛樂</a></h3>
+            <p class="news-excerpt">鞋音梗 正式發表全新夏季系列，融合淡粉色麂皮與科技飛織網布的「泡泡糖老爹鞋」以及極簡羅馬涼鞋等款式。本次發表會由 嘻嘻設計中心 主辦，邀請頂尖名模共同演繹，完美詮釋夏季輕奢時尚...</p>
+            <a href="#" class="news-more" onclick="event.preventDefault(); alert('此為展示文章，全文撰寫中。');">閱讀全文 &rarr;</a>
+          </div>
+        </article>
+
+        <!-- News 2 -->
+        <article class="news-card">
+          <div class="news-img-wrapper">
+            <img src="assets/images/men_1.png" alt="New Store Opening" class="news-img">
+          </div>
+          <div class="news-content">
+            <time class="news-date">2026.06.01</time>
+            <h3 class="news-title"><a href="#">台北旗艦店盛大開幕，限量手作鞋款獨家特惠</a></h3>
+            <p class="news-excerpt">為慶祝亞太區首家實體概念旗艦店，開幕首三日特別邀請台灣資深工匠於現場展演固特異手工沿條拉線技術。凡開幕期間蒞臨門市，兩雙即可享有 85 折起，現場購買皮鞋再贈送經典胡桃木保養禮盒...</p>
+            <a href="#" class="news-more" onclick="event.preventDefault(); alert('此為展示文章，全文撰寫中。');">閱讀全文 &rarr;</a>
+          </div>
+        </article>
+
+        <!-- News 3 -->
+        <article class="news-card">
+          <div class="news-img-wrapper">
+            <img src="assets/images/acc_2.png" alt="Leather Care Guide" class="news-img">
+          </div>
+          <div class="news-content">
+            <time class="news-date">2026.05.20</time>
+            <h3 class="news-title"><a href="#">皮革工坊特輯：頂級牛皮鞋履的三大黃金護理法則</a></h3>
+            <p class="news-excerpt">一雙優質的真皮鞋履能陪伴您數十年。但如何在高濕度的氣候中，維持皮革的最佳亮麗光澤與柔韌度？本期品牌護理專家為您解密：從除塵、均勻塗抹保養油到防水噴霧的選用，深入解析頂級鞋履日常護理細節...</p>
+            <a href="#" class="news-more" onclick="event.preventDefault(); alert('此為展示文章，全文撰寫中。');">閱讀全文 &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shopping Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cart-drawer-overlay"></div>
+  <div class="cart-drawer" id="cart-drawer">
+    <div class="cart-drawer-header">
+      <div class="cart-drawer-title">
+        <span>🛍️</span> 我的購物車
+      </div>
+      <button class="cart-close-btn" id="cart-close">&times;</button>
+    </div>
+    <div class="cart-drawer-items">
+      <!-- Items will load dynamically -->
+    </div>
+    <div class="cart-drawer-footer">
+      <div class="cart-summary-row">
+        <span>小計</span>
+        <span class="cart-summary-total">NT$ 0</span>
+      </div>
+      <button class="btn btn-primary" onclick="alert('感謝您的訂購！')">前往結帳</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4>鞋音梗 男女鞋專賣店</h4>
+        <p>鞋音梗 致力於傳承台灣傳統製鞋工藝，將無與倫比的舒適感融入前衛都會風格，讓每一段旅程都成為品味的延伸。</p>
+        <div class="footer-socials">
+          <a href="#" class="social-link">FB</a>
+          <a href="#" class="social-link">IG</a>
+          <a href="#" class="social-link">YT</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h5>產品類別</h5>
+        <ul>
+          <li><a href="new-arrivals.html">新品上市</a></li>
+          <li><a href="womens.html">時尚女鞋</a></li>
+          <li><a href="mens.html">經典男鞋</a></li>
+          <li><a href="accessories.html">配件</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>關於品牌</h5>
+        <ul>
+          <li><a href="about.html">公司簡介</a></li>
+          <li><a href="news.html">最新消息</a></li>
+          <li><a href="contact.html">聯絡我們</a></li>
+          <li><a href="#">門市據點</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <h5>訂閱電子報</h5>
+        <p>首度訂閱即可獲得 NT$ 500 現金折扣券，掌握 brand 最新鞋款與貴賓專屬優惠。</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('感謝您的訂閱！已發送 500 元優惠券至您的信箱。');">
+          <input type="email" placeholder="輸入您的電子信箱..." class="form-control" required>
+          <button type="submit" class="btn btn-primary">訂閱</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 鞋音梗 Footwear. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">隱私權政策</a>
+        <a href="#">使用條款</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
